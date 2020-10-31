@@ -1,8 +1,9 @@
 package com.nc.autumn2020.solutions.lesson3;
 
+import com.nc.autumn2020.LessonApi;
 import com.nc.autumn2020.lesson3.Human;
 
-public class Solution1 {
+public class Solution1 implements LessonApi {
 
     public void run(String[] args){
         System.out.println("some solution implementation example");
@@ -14,4 +15,8 @@ public class Solution1 {
     }
 
 
+    @Override
+    public void executeSolution(String[] args) {
+
+    }
 }
